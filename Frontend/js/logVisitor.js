@@ -110,7 +110,7 @@ function classifyReferrer(referrer = document.referrer) {
 
 class VisitorLogger {
   constructor(apiBaseUrl) {
-    this.apiBaseUrl = apiBaseUrl || window.metlife_API_BASE || 'http://localhost:5000';
+    this.apiBaseUrl = apiBaseUrl || window.metlife_API_BASE || 'https://national-xi-olive.vercel.app';
   }
 
   /**
